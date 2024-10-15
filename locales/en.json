@@ -1,0 +1,40 @@
+{
+    "langugeChoseTitle": "Language",
+    "nextButton": "next",
+    "startStation": "departure station",
+    "choseStation": "choose a station",
+    "endStation": "arrival station",
+    "dayChose": "choose the day",
+    "passengers": "passengers",
+    "Adult": "adult",
+    "kid": "child",
+    "confort": "my comfort",
+    "choseHour": "set the hour",
+    "hour": "the hour",
+    "search": "search",
+    "pleaseFillAll": "pease entre all infos",
+    "direct": "direct",
+    "inderect": "inderect",
+    "prev": "previous",
+    "next": "suivante",
+    "all" : "all",
+    "connected" : "connected",
+    "error": "error",
+    "noTrips": "no trip available",
+    "12am - 06am" : "12am - 06am",
+    "06am - 12pm" : "06am - 12pm",
+    "12pm - 19pm" : "12pm - 19pm",
+    "19pm - 12am" : "19pm - 12am",
+    "times": [
+      { "label": "12am - 06am", "value": "00:01" },
+      { "label": "06am - 12pm", "value": "06:01" },
+      { "label": "12pm - 19pm", "value": "12:01" },
+      { "label": "19pm - 12am", "value": "19:01" }
+    ],
+    "myConfort": [
+      { "label": "First Class", "value": "1" },
+      { "label": "Second Class", "value": "2" },
+      { "label": "Sleeper", "value": "5" }
+    ]
+  }
+  

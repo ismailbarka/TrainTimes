@@ -1,0 +1,40 @@
+{
+    "langugeChoseTitle": "Langue",
+    "nextButton": "suivant",
+    "startStation": "gare de départ",
+    "choseStation": "choisir une station",
+    "endStation": "gare d'arrivée",
+    "dayChose": "choisissez le jour",
+    "passengers": "passagers",
+    "Adult": "adulte",
+    "kid": "enfant",
+    "confort": "mon confort",
+    "choseHour": "Sélectionnez l'heure",
+    "hour": "l'heure",
+    "search": "rechercher",
+    "pleaseFillAll": "SVP entrer tous les infos",
+    "direct": "direct",
+    "inderect": "inderect",
+    "prev": "précédent",
+    "next": "suivante",
+    "all" : "tous",
+    "connected" : "indirect",
+    "error": "erreur",
+    "noTrips": "aucun voyage disponible",
+    "12am - 06am" : "12am - 06am",
+    "06am - 12pm" : "06am - 12pm",
+    "12pm - 19pm" : "12pm - 19pm",
+    "19pm - 12am" : "19pm - 12am",
+    "times": [
+      { "label": "12am - 06am", "value": "00:01" },
+      { "label": "06am - 12pm", "value": "06:01" },
+      { "label": "12pm - 19pm", "value": "12:01" },
+      { "label": "19pm - 12am", "value": "19:01" }
+    ],
+    "myConfort": [
+      { "label": "Première Classe", "value": "1" },
+      { "label": "Deuxième Classe", "value": "2" },
+      { "label": "Couchette", "value": "5" }
+    ]
+  }
+  

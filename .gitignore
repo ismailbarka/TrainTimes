@@ -1,0 +1,85 @@
+# React Native
+node_modules/
+# Exclude Metro, React packager, and logs
+logs/
+*.log
+
+# Android
+android/.gradle/
+android/app/build/
+android/.idea/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/
+android/captures/
+android/.settings/
+
+# iOS
+ios/Pods/
+ios/DerivedData/
+ios/build/
+ios/.xcodeproj/
+ios/.xcworkspace/
+
+# Exclude IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Exclude IntelliJ project files
+*.iml
+*.ipr
+*.iws
+
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdatad/
+xcdebugger/
+*.pbxuser
+mode1v3/
+mode2v3/
+*.perspectivev3
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Temporary files
+*.tmp
+*.swp
+
+# NPM package lock file
+package-lock.json
+yarn.lock
+
+# Exclude bundling artifacts
+bundle/
+index.android.bundle
+index.ios.bundle
+
+# Exclude Metro bundling output
+.expo/
+
+# Exclude keystore files (important for signing APKs, if using)
+android/app/*.keystore
+android/app/debug.keystore
+android/app/release.keystore
+
+# Exclude cache directories
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.expo/web/cache/
+.expo-shared/
+
+# Miscellaneous
+.env
