@@ -52,7 +52,8 @@ const HomePage = ({ navigation }) => {
         setIsLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error.response);
-        setIsLoading(false);
+        handleAlert("error internet");
+        navigation.navigate('SetInfosScreen');
       }
     };
     fetchData();
@@ -88,13 +89,19 @@ const HomePage = ({ navigation }) => {
         next: false,
         prev: false,
       };
+
+
+      
+
+
       for (let i = 0; response.data.body.departurePath[i]; i++) {
         const codeGareDepart = response.data.body.departurePath[i].codeGareDepart;
         const codeGareArrivee = response.data.body.departurePath[i].codeGareArrivee;
         const dateTimeDepart = response.data.body.departurePath[i].dateTimeDepart;
         const dateTimeArrivee = response.data.body.departurePath[i].dateTimeArrivee;
         const durationTrajet = response.data.body.departurePath[i].durationTrajet;
-        const prix = response.data.body.departurePath[i].listPrixFlexibilite[0].prixFlexibilite[0].prix;
+        
+        const prix = response.data.body.departurePath[i].listPrixFlexibilite[0].prixFlexibilite[0].tarif[0].price;
         const trains = response.data.body.departurePath[i].listSegments.map((item) =>{
           return {
             codeClassification : item.codeClassification,
@@ -133,6 +140,7 @@ const HomePage = ({ navigation }) => {
         selectedKids : selectedKids,
         selectedConfort : selectedConfort,
         });
+        // console.log(response.data.body.departurePath[0].listPrixFlexibilite[0].prixFlexibilite[0]);
       navigation.navigate('AvailabilityScreen');
 
     } catch (error) {
@@ -162,13 +170,13 @@ const HomePage = ({ navigation }) => {
 
   const showHourChoices = (selectedHour) =>{
     if(selectedHour && selectedHour === "00:01")
-      return t("12am - 06am");
+      return "🌙 12am - 06am";
     else if(selectedHour && selectedHour === "06:01")
-      return t("06am - 12pm");
+      return "🌅 06am - 12pm";
     else if(selectedHour && selectedHour === "12:01")
-      return t("12pm - 19pm");
+      return "☀️ 12pm - 19pm";
     else if(selectedHour && selectedHour === "19:01")
-      return t("19pm - 12am");
+      return "🌜 19pm - 12am";
     return t("hour")
 
   }
@@ -214,7 +222,7 @@ const HomePage = ({ navigation }) => {
                 <DropDownComponent
                   placeholderTitle={ selectedKids ?  selectedKids : t("kid")}
                   search={false}
-                  choices={calculateChoices(pasangersDataKids, selectedAdults, 2)}
+                  choices={calculateChoices(pasangersDataKids, selectedAdults, 2) }
                   setSelected={setSelectedKids}
                   error={errors.selectedKids}
                   />

@@ -1,4 +1,4 @@
-package com.oncf
+package com.isbarka.traintimes
 
 import android.app.Application
 import com.facebook.react.PackageList

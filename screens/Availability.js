@@ -7,51 +7,17 @@ import arrowDown from '../svgtopng/arrowDown.png'  // Import the local PNG file
 import passenger from '../svgtopng/passenger.png'  // Import the local PNG file
 import price from '../svgtopng/price.png'  // Import the local PNG file
 import axios from "axios";
-import i18next from '../services/i18next';
 import { useTranslation } from 'react-i18next';
 
 
 
 const categories = ["all","direct", "connected"];
 
-const data = [
-    {
-        codeGareDepart: "206",
-        codeGareArrivee: "200",
-        dateTimeDepart: "2024-09-20T00:01:47+01:00",
-        dateTimeArrivee: "2024-09-20T00:01:47+01:00",
-        durationTrajet: "12:00",
-        prix: "50"
-    },
-    {
-        codeGareDepart: "206",
-        codeGareArrivee: "200",
-        dateTimeDepart: "2024-09-20T00:01:47+01:00",
-        dateTimeArrivee: "2024-09-20T00:01:47+01:00",
-        durationTrajet: "12:00",
-        prix: "50"
-    },
-    {
-        codeGareDepart: "206",
-        codeGareArrivee: "200",
-        dateTimeDepart: "2024-09-20T00:01:47+01:00",
-        dateTimeArrivee: "2024-09-20T00:01:47+01:00",
-        durationTrajet: "12:00",
-        prix: "50"
-    },
-    {
-        codeGareDepart: "206",
-        codeGareArrivee: "200",
-        dateTimeDepart: "2024-09-20T00:01:47+01:00",
-        dateTimeArrivee: "2024-09-20T00:01:47+01:00",
-        durationTrajet: "12:00",
-        prix: "50"
-    },
-]
 
 const Availability = ({ navigation }) => {
     const { userData, avaliabletrips, UpdateAvaliableTrips, setSingleTrip, singleTrip  } = useContext(UserContext);
     const [category , setCategory] = useState("all");
+    const [isLoading, setIsLoading] = useState(false)
     const { t } = useTranslation();
 
     
@@ -76,6 +42,7 @@ const Availability = ({ navigation }) => {
     const connectedTrips = avaliabletrips.departurePath.filter(item => item.trains.length > 1);
 
     const handleNextPage = async () =>{
+      setIsLoading(true);
         const requestBody = {
           codeGareDepart: userData.selectedStart,
           codeGareArrivee: userData.selectedEnd,
@@ -128,7 +95,7 @@ const Availability = ({ navigation }) => {
           codeTiers: ""
         };
     
-        console.log("nC : " +userData.selectedConfort);
+        // console.log("nC : " +userData.selectedConfort);
         try {
           const response = await axios.post('https://www.oncf-voyages.ma/api/availability', requestBody, {
             headers: {
@@ -149,7 +116,8 @@ const Availability = ({ navigation }) => {
             const dateTimeDepart = response.data.body.departurePath[i].dateTimeDepart;
             const dateTimeArrivee = response.data.body.departurePath[i].dateTimeArrivee;
             const durationTrajet = response.data.body.departurePath[i].durationTrajet;
-            const prix = response.data.body.departurePath[i].listPrixFlexibilite[0].prixFlexibilite[0].prix;
+            const prix = response.data.body.departurePath[i].listPrixFlexibilite[0].prixFlexibilite[0].tarif[0].price;
+
             const trains = response.data.body.departurePath[i].listSegments.map((item) =>{
               return {
                 codeClassification : item.codeClassification,
@@ -174,9 +142,6 @@ const Availability = ({ navigation }) => {
             });
           }
     
-          const nextPage = response.data.body.nextCta.next;
-          const PrevPage = response.data.body.nextCta.prev;
-    
           resToUpdate.next = response.data.body.nextCta.next;
           resToUpdate.prev = response.data.body.nextCta.prev;
     
@@ -187,9 +152,12 @@ const Availability = ({ navigation }) => {
     
         } catch (error) {
           console.error('Error:', error.response ? error.response.data : error.message);
+        }finally{
+          setIsLoading(false);
         }
     }
     const handlePrevPage = async () =>{
+      setIsLoading(true);
         const requestBody = {
           codeGareDepart: userData.selectedStart,
           codeGareArrivee: userData.selectedEnd,
@@ -255,7 +223,7 @@ const Availability = ({ navigation }) => {
             next: false,
             prev: false,
           };
-    
+          console.log(response.data);
     
           for (let i = 0; response.data.body.departurePath[i]; i++) {
             const codeGareDepart = response.data.body.departurePath[i].codeGareDepart;
@@ -263,7 +231,7 @@ const Availability = ({ navigation }) => {
             const dateTimeDepart = response.data.body.departurePath[i].dateTimeDepart;
             const dateTimeArrivee = response.data.body.departurePath[i].dateTimeArrivee;
             const durationTrajet = response.data.body.departurePath[i].durationTrajet;
-            const prix = response.data.body.departurePath[i].listPrixFlexibilite[0].prixFlexibilite[0].prix;
+            const price = response.data.body.departurePath[i].listPrixFlexibilite[0].prixFlexibilite[0].tarif[0].price;
             const trains = response.data.body.departurePath[i].listSegments.map((item) =>{
               return {
                 codeClassification : item.codeClassification,
@@ -283,24 +251,21 @@ const Availability = ({ navigation }) => {
               dateTimeDepart: dateTimeDepart,
               dateTimeArrivee: dateTimeArrivee,
               durationTrajet: durationTrajet,
-              prix: prix,
+              prix: price,
               trains : trains,
             });
           }
     
-          const nextPage = response.data.body.nextCta.next;
-          const PrevPage = response.data.body.nextCta.prev;
-    
           resToUpdate.next = response.data.body.nextCta.next;
           resToUpdate.prev = response.data.body.nextCta.prev;
-    
-          console.log("avalibiiiiil : " + resToUpdate.departurePath[0].codeGareDepart);
           UpdateAvaliableTrips(resToUpdate);
 
           navigation.navigate('AvailabilityScreen');
     
         } catch (error) {
           console.error('Error:', error.response ? error.response.data : error.message);
+        } finally{
+          setIsLoading(false);
         }
     }
 
@@ -316,10 +281,10 @@ const Availability = ({ navigation }) => {
                 {categories.map((item) => {
                     return  <TouchableOpacity style={item === category ? styles.NavChoiceSelected : styles.NavChoice} onPress={() => setCategory(item)}>
                                 <View style={styles.categoriesContainer} >
-                                    <Image
+                                    {/* <Image
                                         source={TrainImage}
                                         style={{ width: 20, height: 20 }}
-                                    />
+                                    /> */}
                                     <Text style={styles.titleText}>{t(item)}</Text>
                                 </View>
                             </TouchableOpacity>
@@ -327,12 +292,12 @@ const Availability = ({ navigation }) => {
             </View>
             <ScrollView>
             {avaliabletrips.next && (
-                    <TouchableOpacity style={styles.button} onPress={handlePrevPage}>
-                        <Image
+                    <TouchableOpacity style={styles.button} onPress={handlePrevPage} disabled={isLoading}>
+                        {/* <Image
                           source={arrowUp}
                           style={{ width: 20, height: 20 }}
-                          />
-                        <Text style={styles.text}>{t("prev")}</Text>
+                          /> */}
+                        <Text style={styles.text}>{isLoading ? <Text>{t("loading")}</Text> : t("prev")}</Text>
                     </TouchableOpacity>
                 )}
                 {( category === "all" ? avaliabletrips.departurePath : category === "direct" ? directTrips : connectedTrips).map((item, index) => {
@@ -380,8 +345,8 @@ const Availability = ({ navigation }) => {
                                         style={{ width: 20, height: 20 }}
                                         />
                                     <View>
-                                        <Text style={styles.simpleText}>{userData.selectedAdults} : {t("Adult")}</Text>
-                                        <Text style={styles.simpleText}>{userData.selectedKids} : {t("kid")}</Text>
+                                        <Text style={styles.simpleText}>{userData.selectedAdults} {t("🧑")}</Text>
+                                        <Text style={styles.simpleText}>{userData.selectedKids} {t("👶")}</Text>
                                     </View>   
                                 </View>
                                 <View style={styles.downElementContainer}>
@@ -396,12 +361,12 @@ const Availability = ({ navigation }) => {
                     );
                 })}
                 {avaliabletrips.next && (
-                    <TouchableOpacity style={styles.button} onPress={handleNextPage}>
-                        <Image
+                    <TouchableOpacity style={styles.button} onPress={handleNextPage} disabled={isLoading} >
+                        {/* <Image
                           source={arrowDown}
                           style={{ width: 20, height: 20 }}
-                        />
-                        <Text style={styles.text}>{t("next")}</Text>
+                        /> */}
+                        <Text style={styles.text}>{isLoading ? <Text>{t("loading")}</Text> : t("next")}</Text>
                     </TouchableOpacity>
                 )}
             </ScrollView>

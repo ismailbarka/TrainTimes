@@ -2,3 +2,1093 @@
 20/09/2024(06am-12pm) => 2024-09-20T06:01:47+01:00||||
 20/09/2024(12pm-19pm) => 2024-09-20T12:01:47+01:00||||
 20/09/2024(19am-12am) => 2024-09-20T19:01:47+01:00||||
+
+
+{
+    "head": {
+        "namespace": "Oncf.ma/DataContracts/2019/04/Ecommerce/Gateway/v1",
+        "version": "v1.0",
+        "returnedLines": 0,
+        "errorCode": 0,
+        "errorMessage": "Success",
+        "errorMessage_Ar": "Success",
+        "errorMessage_En": "Success"
+    },
+    "body": {
+        "departurePath": [
+            {
+                "codeGareDepart": "191",
+                "ordre": 1,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T05:16:00+01:00",
+                "dateTimeArrivee": "2024-10-25T05:36:00+01:00",
+                "durationTrajet": "00:20:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 762,
+                        "numeroCommercial": "A4",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T05:16:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T05:36:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "TNR",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:20:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "imoGEc9ftj2IJdOIQ5Oe...
+                            },
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9ftj...
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "codeGareDepart": "191",
+                "ordre": 2,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T06:20:00+01:00",
+                "dateTimeArrivee": "2024-10-25T06:39:00+01:00",
+                "durationTrajet": "00:19:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 6512,
+                        "numeroCommercial": "V15316",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T06:20:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T06:39:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "TNR",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:19:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "imoGEc9ftj...
+                            },
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9ftj2I...
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "codeGareDepart": "191",
+                "ordre": 3,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T07:05:00+01:00",
+                "dateTimeArrivee": "2024-10-25T07:26:00+01:00",
+                "durationTrajet": "00:21:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 735,
+                        "numeroCommercial": "652",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T07:05:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T07:26:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "TNR",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:21:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "imoGEc9...
+                            },
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9ftj...
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "codeGareDepart": "191",
+                "ordre": 4,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T07:16:00+01:00",
+                "dateTimeArrivee": "2024-10-25T07:35:00+01:00",
+                "durationTrajet": "00:19:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 766,
+                        "numeroCommercial": "A8",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T07:16:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T07:35:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "TNR",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:19:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "im...
+                            },
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9ftj2IJdOIQ5Oe...
+                        ]
+                    }
+                ]
+            },
+            {
+                "codeGareDepart": "191",
+                "ordre": 5,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T07:45:00+01:00",
+                "dateTimeArrivee": "2024-10-25T08:04:00+01:00",
+                "durationTrajet": "00:19:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 707,
+                        "numeroCommercial": "802",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T07:45:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T08:04:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "EJ",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:19:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "imoGEc9ft,,,
+
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9ftj2IJd...
+                        ]
+                    }
+                ]
+            },
+            {
+                "codeGareDepart": "191",
+                "ordre": 6,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T08:16:00+01:00",
+                "dateTimeArrivee": "2024-10-25T08:36:00+01:00",
+                "durationTrajet": "00:20:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 723,
+                        "numeroCommercial": "A10",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T08:16:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T08:36:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "TNR",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:20:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "imoGEc9ftj2IJdOIQ5O...
+                            },
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9ftj2IJdOIQ5OecucUT1f7lwd...
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "codeGareDepart": "191",
+                "ordre": 7,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T08:44:00+01:00",
+                "dateTimeArrivee": "2024-10-25T09:04:00+01:00",
+                "durationTrajet": "00:20:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 706,
+                        "numeroCommercial": "804",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T08:44:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T09:04:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "EJ",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:20:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "imoGEc9ftj2IJ...
+                            },
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9f...
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "codeGareDepart": "191",
+                "ordre": 8,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T09:06:00+01:00",
+                "dateTimeArrivee": "2024-10-25T09:30:00+01:00",
+                "durationTrajet": "00:24:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 730,
+                        "numeroCommercial": "654",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T09:06:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T09:30:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "TNR",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:24:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "imoGEc9ft....
+                            },
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9ftj2IJdOIQ5Oe...
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "codeGareDepart": "191",
+                "ordre": 9,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T09:16:00+01:00",
+                "dateTimeArrivee": "2024-10-25T09:36:00+01:00",
+                "durationTrajet": "00:20:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 722,
+                        "numeroCommercial": "A12",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T09:16:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T09:36:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "TNR",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:20:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "imoGEc9ft...
+                            },
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9ftj2IJdO...
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "codeGareDepart": "191",
+                "ordre": 10,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T10:16:00+01:00",
+                "dateTimeArrivee": "2024-10-25T10:36:00+01:00",
+                "durationTrajet": "00:20:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 717,
+                        "numeroCommercial": "A14",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T10:16:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T10:36:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "TNR",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:20:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "imoGEc9ftj2I...
+                            },
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9ftj2IJd...
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "codeGareDepart": "191",
+                "ordre": 11,
+                "codeGareArrivee": "206",
+                "dateTimeDepart": "2024-10-25T11:04:00+01:00",
+                "dateTimeArrivee": "2024-10-25T11:28:00+01:00",
+                "durationTrajet": "00:24:00",
+                "typeVente": "1",
+                "express": false,
+                "listSegments": [
+                    {
+                        "codeTrainAutoCar": 732,
+                        "numeroCommercial": "656",
+                        "hasPlacement": false,
+                        "dateHeureDepart": "2024-10-25T11:04:00+01:00",
+                        "dateHeureArrivee": "2024-10-25T11:28:00+01:00",
+                        "codeGareDepart": "191",
+                        "codeGareArrivee": "206",
+                        "codeGamme": "48",
+                        "codeClassification": "TNR",
+                        "codeNiveauConfort": "2",
+                        "codeNiveauConfortSup": "1",
+                        "duree": "00:24:00",
+                        "order": "1",
+                        "jourApres": null,
+                        "jourAvant": null,
+                        "dateCirculation": "2024-10-25T00:00:00+01:00",
+                        "listeCritere": [],
+                        "configurationVenteEnum": 3,
+                        "configurationVenteSupEnum": 3
+                    }
+                ],
+                "voyageurs": [
+                    {
+                        "prenom": null,
+                        "nom": null,
+                        "prenomAr": null,
+                        "nomAr": null,
+                        "codeCivilite": "0",
+                        "numeroClient": null,
+                        "codeConvention": null,
+                        "numeroTitre": null,
+                        "tarifRevendique": null,
+                        "codeProfilDemographique": "3",
+                        "email": null,
+                        "telephone": null,
+                        "typeTarifRevendique": null,
+                        "codeClient": null,
+                        "codeTiers": null
+                    }
+                ],
+                "listPrixFlexibilite": [
+                    {
+                        "typeFexibilite": "1",
+                        "prixFlexibilite": [
+                            {
+                                "prix": 10,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": false,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 10,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributs": "imoGEc9ftj2...
+                            {
+                                "prix": 30,
+                                "toolTipConditionVenteApresVenteAr": " قابل للاستبدال دون حدود قبل مغادرة قطارك. قابل للاسترداد دون خصم إلى حدود اليوم السابق لرحلتك وبخصم 20٪ يوم السفر.",
+                                "toolTipConditionVenteApresVenteEn": " Unlimited exchangeability before the departure of your train. Refundable without deduction up to the day before your journey and with a 20% price deduction on the travel day.",
+                                "toolTipConditionVenteApresVenteFr": " Echangeable en illimité avant le départ de votre train. Remboursable sans aucune retenue jusqu'à la veille de votre voyage et avec une retenue de 20% le jour de voyage",
+                                "disponibilite": null,
+                                "typeVente": 1,
+                                "sup": true,
+                                "tarif": [
+                                    {
+                                        "tarifId": "802",
+                                        "codeTarif": "GF",
+                                        "typeRevendicationId": 1,
+                                        "price": 30,
+                                        "profilInfoId": "3"
+                                    }
+                                ],
+                                "encodedAttributsSup": "imoGEc9ftj2IJdOIQ5Oe...
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "arrivalPath": [],
+        "nextCta": {
+            "next": true,
+            "prev": false
+        },
+        "backCta": {
+            "next": false,
+            "prev": false
+        }
+    }
+}

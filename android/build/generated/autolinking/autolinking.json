@@ -1,26 +1,26 @@
 {
-  "root": "/Users/ismailbarka/Desktop/native/ONCF",
-  "reactNativePath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native",
+  "root": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2",
+  "reactNativePath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native",
   "reactNativeVersion": "0.75",
   "dependencies": {
     "@react-native-async-storage/async-storage": {
-      "root": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/@react-native-async-storage/async-storage",
+      "root": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/@react-native-async-storage/async-storage",
       "name": "@react-native-async-storage/async-storage",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/@react-native-async-storage/async-storage/RNCAsyncStorage.podspec",
+          "podspecPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/@react-native-async-storage/async-storage/RNCAsyncStorage.podspec",
           "version": "2.0.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/@react-native-async-storage/async-storage/android",
+          "sourceDir": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/@react-native-async-storage/async-storage/android",
           "packageImportPath": "import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;",
           "packageInstance": "new AsyncStoragePackage()",
           "buildTypes": [],
           "libraryName": "rnasyncstorage",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/@react-native-async-storage/async-storage/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -29,23 +29,23 @@
       }
     },
     "@react-native-community/datetimepicker": {
-      "root": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/@react-native-community/datetimepicker",
+      "root": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/@react-native-community/datetimepicker",
       "name": "@react-native-community/datetimepicker",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/@react-native-community/datetimepicker/RNDateTimePicker.podspec",
+          "podspecPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/@react-native-community/datetimepicker/RNDateTimePicker.podspec",
           "version": "8.2.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/@react-native-community/datetimepicker/android",
+          "sourceDir": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/@react-native-community/datetimepicker/android",
           "packageImportPath": "import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;",
           "packageInstance": "new RNDateTimePickerPackage()",
           "buildTypes": [],
           "libraryName": "RNDateTimePickerCGen",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/@react-native-community/datetimepicker/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -54,17 +54,17 @@
       }
     },
     "react-native-date-picker": {
-      "root": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-date-picker",
+      "root": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-date-picker",
       "name": "react-native-date-picker",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-date-picker/react-native-date-picker.podspec",
+          "podspecPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-date-picker/react-native-date-picker.podspec",
           "version": "5.0.7",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-date-picker/android",
+          "sourceDir": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-date-picker/android",
           "packageImportPath": "import com.henninghall.date_picker.DatePickerPackage;",
           "packageInstance": "new DatePickerPackage()",
           "buildTypes": [],
@@ -72,7 +72,7 @@
           "componentDescriptors": [
             "RNDatePickerComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-date-picker/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-date-picker/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -81,17 +81,17 @@
       }
     },
     "react-native-gesture-handler": {
-      "root": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-gesture-handler",
+      "root": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-gesture-handler",
       "name": "react-native-gesture-handler",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
-          "version": "2.19.0",
+          "podspecPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-gesture-handler/RNGestureHandler.podspec",
+          "version": "2.20.2",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-gesture-handler/android",
+          "sourceDir": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-gesture-handler/android",
           "packageImportPath": "import com.swmansion.gesturehandler.RNGestureHandlerPackage;",
           "packageInstance": "new RNGestureHandlerPackage()",
           "buildTypes": [],
@@ -100,7 +100,7 @@
             "RNGestureHandlerButtonComponentDescriptor",
             "RNGestureHandlerRootViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -109,17 +109,17 @@
       }
     },
     "react-native-safe-area-context": {
-      "root": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-safe-area-context",
+      "root": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-safe-area-context",
       "name": "react-native-safe-area-context",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
-          "version": "4.11.0",
+          "podspecPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
+          "version": "4.11.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-safe-area-context/android",
+          "sourceDir": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-safe-area-context/android",
           "packageImportPath": "import com.th3rdwave.safeareacontext.SafeAreaContextPackage;",
           "packageInstance": "new SafeAreaContextPackage()",
           "buildTypes": [],
@@ -128,7 +128,7 @@
             "RNCSafeAreaProviderComponentDescriptor",
             "RNCSafeAreaViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -137,17 +137,17 @@
       }
     },
     "react-native-screens": {
-      "root": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-screens",
+      "root": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-screens",
       "name": "react-native-screens",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-screens/RNScreens.podspec",
-          "version": "3.34.0",
+          "podspecPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-screens/RNScreens.podspec",
+          "version": "3.34.1",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-screens/android",
+          "sourceDir": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-screens/android",
           "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
           "packageInstance": "new RNScreensPackage()",
           "buildTypes": [],
@@ -163,7 +163,7 @@
             "RNSScreenComponentDescriptor",
             "RNSModalScreenComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -172,17 +172,17 @@
       }
     },
     "react-native-svg": {
-      "root": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-svg",
+      "root": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-svg",
       "name": "react-native-svg",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-svg/RNSVG.podspec",
-          "version": "15.7.1",
+          "podspecPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-svg/RNSVG.podspec",
+          "version": "15.8.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-svg/android",
+          "sourceDir": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-svg/android",
           "packageImportPath": "import com.horcrux.svg.SvgPackage;",
           "packageInstance": "new SvgPackage()",
           "buildTypes": [],
@@ -191,7 +191,9 @@
             "RNSVGCircleComponentDescriptor",
             "RNSVGClipPathComponentDescriptor",
             "RNSVGDefsComponentDescriptor",
+            "RNSVGFeBlendComponentDescriptor",
             "RNSVGFeColorMatrixComponentDescriptor",
+            "RNSVGFeFloodComponentDescriptor",
             "RNSVGFeGaussianBlurComponentDescriptor",
             "RNSVGFeMergeComponentDescriptor",
             "RNSVGFeOffsetComponentDescriptor",
@@ -215,7 +217,7 @@
             "RNSVGTSpanComponentDescriptor",
             "RNSVGUseComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-svg/android/src/main/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -224,23 +226,23 @@
       }
     },
     "react-native-vector-icons": {
-      "root": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-vector-icons",
+      "root": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-vector-icons",
       "name": "react-native-vector-icons",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
+          "podspecPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
           "version": "10.2.0",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-vector-icons/android",
+          "sourceDir": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-vector-icons/android",
           "packageImportPath": "import com.oblador.vectoricons.VectorIconsPackage;",
           "packageInstance": "new VectorIconsPackage()",
           "buildTypes": [],
           "libraryName": "RNVectorIconsSpec",
           "componentDescriptors": [],
-          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/ONCF/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -410,7 +412,7 @@
         {
           "name": "--path <path>",
           "description": "Path to the React Native project root.",
-          "default": "/Users/ismailbarka/Desktop/native/ONCF"
+          "default": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2"
         },
         {
           "name": "--platform <string>",
@@ -697,7 +699,7 @@
   "assets": [],
   "project": {
     "ios": {
-      "sourceDir": "/Users/ismailbarka/Desktop/native/ONCF/ios",
+      "sourceDir": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/ios",
       "xcodeProject": {
         "name": "ONCF.xcodeproj",
         "path": ".",
@@ -706,10 +708,10 @@
       "assets": []
     },
     "android": {
-      "sourceDir": "/Users/ismailbarka/Desktop/native/ONCF/android",
+      "sourceDir": "/Users/ismailbarka/Desktop/native/TrainTimes copy 2/android",
       "appName": "app",
-      "packageName": "com.oncf",
-      "applicationId": "com.oncf",
+      "packageName": "com.isbarka.traintimes",
+      "applicationId": "com.isbarka.traintimes",
       "mainActivity": ".MainActivity",
       "assets": []
     }

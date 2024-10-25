@@ -1,4 +1,4 @@
-package com.oncf
+package com.isbarka.traintimes
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

@@ -38,13 +38,13 @@ const TripDetails = () => {
               {item.codeClassification && (
                 <View style={styles.classInfo}>
                   <View style={styles.dotSmall}></View>
-                  <Text style={styles.classText}>Class: {item.codeClassification} ({item.codeGamme === "2" ? "2nd Class" : item.codeGamme === "1" ? "1st Class" : "Single Bed"})</Text>
+                  <Text style={styles.classText}>🚉: {item.codeClassification} ({item.codeGamme === "2" ? "2nd Class" : item.codeGamme === "1" ? "1st Class" : "Single Bed"})</Text>
                 </View>
               )}
               {item.duree && (
                 <View style={styles.durationInfo}>
                   <View style={styles.dotSmall}></View>
-                  <Text style={styles.durationText}>Duration: {getTime(item.duree)}</Text>
+                  <Text style={styles.durationText}>🕒: {getTime(item.duree)}</Text>
                 </View>
               )}
             </View>
